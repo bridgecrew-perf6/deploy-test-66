@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "axios": "^0.26.1",
+    "cors": "^2.8.5",
     "mongoose": "^6.2.7",
     "next": "12.1.0",
     "react": "17.0.2",
