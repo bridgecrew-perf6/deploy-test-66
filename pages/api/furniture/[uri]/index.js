@@ -1,7 +1,7 @@
 import dbConnect from "../../../../utils/dbConnect"
 import Furniture from '../../../../models/Furniture'
 import Cors from 'cors'
-import { runMiddleware } from "../../../middleware/runMiddleware";
+import { runMiddleware } from "../../../../middleware/runMiddleware"
 
 const cors = Cors({
   methods: ['GET'],
