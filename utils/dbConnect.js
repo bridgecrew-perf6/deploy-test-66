@@ -11,8 +11,7 @@ const dbConnect = async () => {
     }
 
     /* connecting to our database */
-    const db = await mongoose.connect('mongodb+srv://cbrito1994:ucJMQwJ3EiDRrR9m@furniture-broker.hay3v.mongodb.net/furnitureBrokerDB?retryWrites=true&w=majority')
-    // const db = await mongoose.connect(process.env.MONGODB_URI)
+    const db = await mongoose.connect(process.env.MONGODB_URI)
     connection.isConnected = db.connections[0].readyState;
 }
 
